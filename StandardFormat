@@ -92,7 +92,7 @@ public class StandardFormat {
 
 }
 
-//Custom Class (Note that you can name Class as anything like class Athlete//
+//Custom Class (Note that you can name Class as anything like class Athlete)//
 class Class {
     private final String info;
     private final double first;
