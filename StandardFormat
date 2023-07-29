@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+public class StandardFormat {
+  public static void main(String[] args)throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    PrintWriter output = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+
+    int Input;
+    String[] Line1 = br.readLine().split(" ");
+    Input = Integer.parseInt(Line1[0]);
+
+
+    output.print(output);
+    output.println(output);
+    output.flush();
+    output.close();
+  }
+}
+
+
