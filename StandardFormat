@@ -75,6 +75,7 @@ public class StandardFormat {
 
     //Print output//
     output.print(output);
+    output.println();
     output.println(output);
     output.flush();
     output.close();
